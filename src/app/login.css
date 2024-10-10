@@ -1,0 +1,59 @@
+h1 {
+    margin: 0;
+  }
+  
+  a {
+    color: #9733EE;
+  }
+  
+  header {
+    background: #DA22FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9733EE, #DA22FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 20px;
+  
+  }
+  
+  .otp-area {
+    display: flex;
+    gap: 10px;
+  
+  
+  }
+  
+  .otp-area input {
+    display: flex;
+    font-size: 2rem;
+    font-weight: 500;
+    background: #df80ff;
+    border-radius: 10px;
+    width: 40px;
+    height: 60px;
+    padding: 20px 10px;
+    border: none;
+    outline: none;
+  }
+  
+  .btn {
+    width: 300px;
+    background: #DA22FF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #9733EE, #DA22FF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 10px;
+    color: #FFF;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
